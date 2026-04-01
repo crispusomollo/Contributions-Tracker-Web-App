@@ -57,7 +57,7 @@ Reporting
 --------------------------------------------------
 
 PROJECT STRUCTURE
-
+```
 contributions-system
 │
 ├── backend
@@ -75,17 +75,17 @@ contributions-system
 │
 ├── README.txt
 └── .gitignore
-
+```
 --------------------------------------------------
 
 INSTALLATION
 
 1. Clone Repository
+```
+git clone https://github.com/crispusomollo/Contributions-Tracker-Web-App.git
 
-git clone https://github.com/YOUR_USERNAME/contributions-system.git
-
-cd contributions-system
-
+cd contributions-tracker-web-app
+```
 2. Install Dependencies
 ```
 cd backend
@@ -120,25 +120,35 @@ frontend/dashboard.html
 API ENDPOINTS
 
 Contributors
-
+```
 GET     /api/contributors
-POST    /api/contributors
-PUT     /api/contributors/:id
-DELETE  /api/contributors/:id
 
+POST    /api/contributors
+
+PUT     /api/contributors/:id
+
+DELETE  /api/contributors/:id
+```
 Contributions
 
 GET     /api/contributions
+
 POST    /api/contributions
+
 PUT     /api/contributions/:id
+
 DELETE  /api/contributions/:id
 
 Reports
 
 GET /api/reports/monthly
+
 GET /api/reports/yearly
+
 GET /api/reports/contributor
+
 GET /api/reports/export/pdf
+
 GET /api/reports/export/excel
 
 --------------------------------------------------
@@ -174,14 +184,4 @@ This project demonstrates:
 - Report Generation
 - Dashboard Analytics
 - Real-world Business Solution
-
---------------------------------------------------
-
-AUTHOR
-
-Chris Origi
-
-LICENSE
-
-MIT License
 
