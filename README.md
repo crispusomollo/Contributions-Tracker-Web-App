@@ -1,5 +1,5 @@
 
-# Contributions Management System
+# Contributions Tracker Web App
 
 ![Node.js](https://img.shields.io/badge/Node.js-Backend-green)
 ![MySQL](https://img.shields.io/badge/MySQL-Database-blue)
