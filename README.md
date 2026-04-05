@@ -44,10 +44,7 @@ Dashboard
 TECH STACK
 
 Frontend
-- HTML
-- CSS
-- JavaScript
-- Chart.js
+- React
 
 Backend
 - Node.js
@@ -62,106 +59,8 @@ Reporting
 
 --------------------------------------------------
 
-PROJECT STRUCTURE
-```
-contributions-system
-│
-├── backend
-│   ├── config
-│   ├── controllers
-│   ├── routes
-│   ├── services
-│   └── app.js
-│
-├── frontend
-│   ├── dashboard.html
-│   ├── contributors.html
-│   ├── contributions.html
-│   └── reports.html
-│
-├── README.txt
-└── .gitignore
-```
---------------------------------------------------
-
-INSTALLATION
-
-1. Clone Repository
-```
-git clone https://github.com/crispusomollo/Contributions-Tracker-Web-App.git
-
-cd contributions-tracker-web-app
-```
-2. Install Dependencies
-```
-cd backend
-npm install
-```
-3. Configure Database
-
-Create MySQL database:
-```
-CREATE DATABASE contributions_db;
-```
-Update database credentials:
-```
-backend/config/db.js
-```
-4. Run Application
-```
-node app.js
-```
-Server runs on:
-```
-http://localhost:5000
-```
-5. Open Frontend
-
-Open:
-```
-frontend/dashboard.html
-```
---------------------------------------------------
-
-API ENDPOINTS
-
-Contributors
-```
-GET     /api/contributors
-
-POST    /api/contributors
-
-PUT     /api/contributors/:id
-
-DELETE  /api/contributors/:id
-```
-Contributions
-```
-GET     /api/contributions
-
-POST    /api/contributions
-
-PUT     /api/contributions/:id
-
-DELETE  /api/contributions/:id
-```
-Reports
-```
-GET /api/reports/monthly
-
-GET /api/reports/yearly
-
-GET /api/reports/contributor
-
-GET /api/reports/export/pdf
-
-GET /api/reports/export/excel
-```
---------------------------------------------------
-
 FUTURE ENHANCEMENTS
 
-- User authentication
 - Email notifications
 - Multi-group support
 - Mobile responsive UI
