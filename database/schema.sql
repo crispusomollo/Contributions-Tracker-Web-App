@@ -107,3 +107,6 @@ ON contributions(contribution_date);
 
 CREATE INDEX idx_contributor_id 
 ON contributions(contributor_id);
+
+CREATE INDEX idx_contributor_phone
+ON contributors(phone);
