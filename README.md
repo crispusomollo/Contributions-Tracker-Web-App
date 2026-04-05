@@ -41,34 +41,6 @@ Dashboard
 
 --------------------------------------------------
 
-TECH STACK
-
-Frontend
-- React
-
-Backend
-- Node.js
-- Express.js
-
-Database
-- MySQL
-
-Reporting
-- PDFKit
-- ExcelJS
-
---------------------------------------------------
-
-FUTURE ENHANCEMENTS
-
-- Email notifications
-- Multi-group support
-- Mobile responsive UI
-- Cloud deployment
-- Role-based access control
-
---------------------------------------------------
-
 USE CASES
 
 - Family contribution groups
