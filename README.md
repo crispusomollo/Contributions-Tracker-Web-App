@@ -8,7 +8,7 @@
 
 A simple and powerful web-based Contributions Management System designed to help 
 groups, friends, or organizations track monthly contributions, generate reports, 
-and export data to PDF and Excel.
+and export data to PDF and Excel. Full Stack system built with React, Node.js, and MySQL
 
 --------------------------------------------------
 
@@ -37,25 +37,6 @@ and export data to PDF and Excel.
 - Monthly contributions
 - Top contributors
 - Contribution trends
-
---------------------------------------------------
-
-## 🏗️ Tech Stack
-
-Frontend
-- React
-- Chart.js
-
-Backend
-- Node.js
-- Express.js
-
-Database
-- MySQL
-
-Reporting
-- PDFKit
-- ExcelJS
 
 --------------------------------------------------
 
