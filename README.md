@@ -59,42 +59,6 @@ Reporting
 
 --------------------------------------------------
 
-## 📊 API Endpoints
-
-### Contributors
-
-GET     /api/contributors
-
-POST    /api/contributors
-
-PUT     /api/contributors/:id
-
-DELETE  /api/contributors/:id
-
-### Contributions
-
-GET     /api/contributions
-
-POST    /api/contributions
-
-PUT     /api/contributions/:id
-
-DELETE  /api/contributions/:id
-
-### Reports
-
-GET /api/reports/monthly
-
-GET /api/reports/yearly
-
-GET /api/reports/contributor
-
-GET /api/reports/export/pdf
-
-GET /api/reports/export/excel
-
---------------------------------------------------
-
 ## 🎯 Use Cases
 
 - Family contribution groups
@@ -117,4 +81,3 @@ This project demonstrates:
 - Real-world Business Solution
 
 --------------------------------------------------
-
