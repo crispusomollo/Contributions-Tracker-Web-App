@@ -20,4 +20,5 @@
 feat: new feature  
 fix: bug fix  
 docs: documentation  
-chore: maintenance  
+chore: maintenance 
+
